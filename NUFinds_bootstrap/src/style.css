@@ -1,0 +1,63 @@
+:root {
+  --bs-primary: #35408e;
+  --bs-primary-rgb: 53, 64, 142;
+  --bs-warning: #ffd41c;
+  --bs-warning-rgb: 255, 212, 28;
+  --bs-link-color: #35408e;
+  --bs-link-color-rgb: 53, 64, 142;
+  --bs-link-hover-color: #2c357a;
+  --bs-link-hover-color-rgb: 44, 53, 122;
+}
+
+/* NU Blue buttons */
+.btn-primary {
+  --bs-btn-bg: #35408e;
+  --bs-btn-border-color: #35408e;
+  --bs-btn-hover-bg: #2c357a;
+  --bs-btn-hover-border-color: #2c357a;
+  --bs-btn-active-bg: #2c357a;
+  --bs-btn-active-border-color: #2c357a;
+  --bs-btn-disabled-bg: #35408e;
+  --bs-btn-disabled-border-color: #35408e;
+}
+.btn-outline-primary {
+  --bs-btn-color: #35408e;
+  --bs-btn-border-color: #35408e;
+  --bs-btn-hover-bg: #35408e;
+  --bs-btn-hover-border-color: #35408e;
+  --bs-btn-active-bg: #35408e;
+  --bs-btn-active-border-color: #35408e;
+  --bs-btn-disabled-color: #35408e;
+  --bs-btn-disabled-border-color: #35408e;
+}
+
+/* NU Gold buttons (blue text on gold) */
+.btn-warning {
+  --bs-btn-color: #35408e;
+  --bs-btn-bg: #ffd41c;
+  --bs-btn-border-color: #ffd41c;
+  --bs-btn-hover-color: #35408e;
+  --bs-btn-hover-bg: #f4c900;
+  --bs-btn-hover-border-color: #f4c900;
+  --bs-btn-active-color: #35408e;
+  --bs-btn-active-bg: #f4c900;
+  --bs-btn-active-border-color: #f4c900;
+  --bs-btn-disabled-color: #35408e;
+  --bs-btn-disabled-bg: #ffd41c;
+  --bs-btn-disabled-border-color: #ffd41c;
+}
+
+/* Blue focus ring on form fields */
+.form-control:focus,
+.form-select:focus {
+  border-color: #35408e;
+  box-shadow: 0 0 0 .25rem rgba(53, 64, 142, .15);
+}
+
+/* Sidebar menu: gold highlight for the current page */
+.nav-pills {
+  --bs-nav-link-color: #d4d7eb;
+  --bs-nav-link-hover-color: #ffffff;
+  --bs-nav-pills-link-active-color: #35408e;
+  --bs-nav-pills-link-active-bg: #ffd41c;
+}
